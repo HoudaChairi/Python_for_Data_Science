@@ -17,6 +17,20 @@ def slice_me(family: list, start: int, end: int) -> list:
             - Shape of the original and sliced arrays.
     """
     try:
+        if type(family) is not list:
+            raise TypeError("Input must be a list.")
+        if len(family) == 0:
+            raise ValueError("List is empty.")
+
+        for row in family:
+            if type(row) is not list:
+                raise TypeError("Each element of the list must be a list.")
+
+        first_row_length = len(family[0])
+        for row in family:
+            if len(row) != first_row_length:
+                raise ValueError("All inner lists must be of the same size.")
+
         array = np.array(family)
 
         print(f"My shape is : {array.shape}")
