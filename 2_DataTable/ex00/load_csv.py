@@ -18,5 +18,5 @@ def load(path: str) -> pd.DataFrame:
         print(f"Loading dataset of dimensions {data.shape}")
 
         return data
-    except AssertionError as e:
-        print(f"AssertionError: {e}")
+    except Exception as e:
+        print(f"Error: {e}")
