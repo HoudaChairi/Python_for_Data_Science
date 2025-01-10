@@ -23,9 +23,15 @@ def ft_statistics(*args, **kwargs) -> None:
         return
 
     def mean(data):
+        """
+        Computes the mean (average) of a list of numbers.
+        """
         return sum(data) / len(data)
 
     def median(data):
+        """
+        Computes the median of a list of numbers.
+        """
         n = len(data)
         mid = n // 2
         if n % 2 == 0:
@@ -33,6 +39,9 @@ def ft_statistics(*args, **kwargs) -> None:
         return data[mid]
 
     def quartiles(args):
+        """
+        Computes the first and third quartiles (Q1, Q3) of a list of numbers.
+        """
         num_list = list(args)
         num_list.sort()
         median_num = median(num_list)
@@ -43,10 +52,16 @@ def ft_statistics(*args, **kwargs) -> None:
         return [one, two]
 
     def variance(data):
+        """
+        Computes the variance of a list of numbers.
+        """
         m = mean(data)
         return sum((x - m) ** 2 for x in data) / len(data)
 
     def std(data):
+        """
+        Computes the standard deviation of a list of numbers.
+        """
         return variance(data) ** 0.5
 
     operations = {
