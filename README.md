@@ -67,14 +67,7 @@ Advanced data analysis and machine learning concepts:
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
 -->
-## ✅ Requirements
+<!-- ## Requirements
 - NumPy
 - Pandas
-- Matplotlib
-
-## 🚀 Usage
-Each module contains its own set of exercises. Navigate to the specific module directory and run the Python scripts:
-
-```bash
-python3 .py
-```
+- Matplotlib -->
