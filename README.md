@@ -1,6 +1,6 @@
 # 📊 Python_for_Data_Science 🚀
   
-  Python piscine to get familiar with the tools needed in AI/Data science, Let's dive in! 🌟
+  Python piscine to get familiar with the tools needed in AI/Data science... Let's dive in! 🌟
 
 ## 🔰 Module 00 - Python Basics 
 Introduction to Python fundamentals and basic programming concepts:
