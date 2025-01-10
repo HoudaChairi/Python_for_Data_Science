@@ -1,13 +1,14 @@
 def ft_statistics(*args, **kwargs) -> None:
     """
-    A function that calculates various statistical measures such as mean, median,
-    quartiles, variance, and standard deviation on a list of numbers provided as 
-    positional arguments. The specific measure to compute is determined by the 
-    keyword argument passed ('mean', 'median', 'quartile', 'var', 'std').
+    A function that calculates various statistical measures such as mean,
+    median, quartiles, variance, and standard deviation on a list of numbers
+    provided as positional arguments. The specific measure to compute
+    is determined by the keyword argument passed ('mean', 'median',
+    'quartile', 'var', 'std').
 
     Parameters:
     *args: A list of numbers for statistical computation.
-    **kwargs: A keyword argument specifying the statistical operation ('mean', 
+    **kwargs: A keyword argument specifying the statistical operation ('mean',
               'median', 'quartile', 'var', 'std') to be performed.
 
     Returns:
