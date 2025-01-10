@@ -1,4 +1,18 @@
 def ft_statistics(*args, **kwargs) -> None:
+    """
+    A function that calculates various statistical measures such as mean, median,
+    quartiles, variance, and standard deviation on a list of numbers provided as 
+    positional arguments. The specific measure to compute is determined by the 
+    keyword argument passed ('mean', 'median', 'quartile', 'var', 'std').
+
+    Parameters:
+    *args: A list of numbers for statistical computation.
+    **kwargs: A keyword argument specifying the statistical operation ('mean', 
+              'median', 'quartile', 'var', 'std') to be performed.
+
+    Returns:
+    None: Prints the result of the selected statistical operation.
+    """
     try:
 
         numbers = [float(arg) for arg in args]
@@ -17,16 +31,15 @@ def ft_statistics(*args, **kwargs) -> None:
             return (data[mid - 1] + data[mid]) / 2
         return data[mid]
 
-    def quartiles(data):
-        n = len(data)
-        mid = n // 2
-        if n % 2 == 0:
-            q1 = median(data[:mid])
-            q3 = median(data[mid:])
-        else:
-            q1 = median(data[:mid])
-            q3 = median(data[mid + 1:])
-        return [q1, q3]
+    def quartiles(args):
+        num_list = list(args)
+        num_list.sort()
+        median_num = median(num_list)
+
+        one = median(list(filter(lambda x: x <= median_num, num_list)))
+        two = median(list(filter(lambda x: x >= median_num, num_list)))
+
+        return [one, two]
 
     def variance(data):
         m = mean(data)
