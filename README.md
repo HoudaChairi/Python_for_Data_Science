@@ -24,8 +24,6 @@ Learning data manipulation and analysis with Pandas:
 - Introduction to Pandas and DataFrame basics
 - Data loading and saving (CSV files)
 - DataFrame operations and transformations
-- Data aggregation and grouping
-- Statistical analysis of datasets
 - Data visualization fundamentals
 
 ## 📊 Module 03 - Data Visualization 
