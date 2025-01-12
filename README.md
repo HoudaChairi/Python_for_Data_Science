@@ -9,26 +9,21 @@ Introduction to Python fundamentals and basic programming concepts:
 - List comprehensions and basic functions
 - Control flow (if/else, loops)
 - Error handling and NULL values
-- Building simple functions for data manipulation
 
 ## 📊 Module 01 - Array
 Focus on array manipulation and image processing using NumPy:
 - Introduction to NumPy arrays and basic operations
-- Image representation in Python
+- Image representation in Python using Matplotlib
 - Array transformations (rotation, scaling)
 - Image manipulation techniques
 - Working with 2D arrays
-- Basic image processing operations
-- Creating custom array manipulation functions
+- Basic image processing operations (PIL: Pillow)
 
 ## 📈 Module 02 - Data Table
 Learning data manipulation and analysis with Pandas:
 - Introduction to Pandas and DataFrame basics
 - Data loading and saving (CSV files)
-- Data cleaning and preprocessing
 - DataFrame operations and transformations
-- Data aggregation and grouping
-- Statistical analysis of datasets
 - Data visualization fundamentals
 
 ## 📊 Module 03 - Data Visualization 
