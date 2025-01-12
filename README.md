@@ -13,12 +13,11 @@ Introduction to Python fundamentals and basic programming concepts:
 ## 📊 Module 01 - Array
 Focus on array manipulation and image processing using NumPy:
 - Introduction to NumPy arrays and basic operations
-- Image representation in Python
+- Image representation in Python using Matplotlib
 - Array transformations (rotation, scaling)
 - Image manipulation techniques
 - Working with 2D arrays
-- Basic image processing operations
-- Creating custom array manipulation functions
+- Basic image processing operations (PIL: Pillow)
 
 ## 📈 Module 02 - Data Table
 Learning data manipulation and analysis with Pandas:
