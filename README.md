@@ -9,7 +9,6 @@ Introduction to Python fundamentals and basic programming concepts:
 - List comprehensions and basic functions
 - Control flow (if/else, loops)
 - Error handling and NULL values
-- Building simple functions for data manipulation
 
 ## 📊 Module 01 - Array
 Focus on array manipulation and image processing using NumPy:
