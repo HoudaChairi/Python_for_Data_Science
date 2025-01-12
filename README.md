@@ -23,7 +23,6 @@ Focus on array manipulation and image processing using NumPy:
 Learning data manipulation and analysis with Pandas:
 - Introduction to Pandas and DataFrame basics
 - Data loading and saving (CSV files)
-- Data cleaning and preprocessing
 - DataFrame operations and transformations
 - Data aggregation and grouping
 - Statistical analysis of datasets
