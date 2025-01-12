@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def main():
     """
     Loads life expectancy data and plots projections
-    for a specified country (default: France).
+    for a specified country (default: Morocco).
 
     The dataset is loaded using the `load()` function,
     and a line plot is generated to visualize the life
@@ -14,7 +14,7 @@ def main():
     try:
         df = load("../ex00/life_expectancy_years.csv").T
 
-        country = 'France'
+        country = 'Morocco'
         df[country].plot(xlabel='Year', ylabel='Life expectancy',
                          title=f'{country} life expectancy projections')
 
