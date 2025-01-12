@@ -13,7 +13,7 @@ class Character(ABC):
     @abstractmethod
     def die(self):
         """Change the character's state to dead."""
-        self.is_alive = False
+        pass
 
 
 class Stark(Character):
