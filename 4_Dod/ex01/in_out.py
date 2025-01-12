@@ -15,7 +15,7 @@ def outer(x: int | float, function) -> object:
     count = 0
 
     def inner() -> float:
-        nonlocal x, count  # A
+        nonlocal x, count
         result = function(x)
         x = result
         count += 1
