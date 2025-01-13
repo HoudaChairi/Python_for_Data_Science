@@ -1,7 +1,8 @@
 
 def NULL_not_found(object: any) -> int:
     """
-    Evaluates the given object and prints a message based on specific conditions:
+    Evaluates the given object and prints a message
+    based on specific conditions:
 
     - "Nothing" for `None`.
     - "Cheese" for NaN (float).
@@ -16,13 +17,13 @@ def NULL_not_found(object: any) -> int:
     """
     if object is None:
         print("Nothing:", f"{object}", type(object))
-    elif (object != object and type(object) == float):
+    elif (object is not object and type(object) is float):
         print("Cheese:", f"{object}", type(object))
-    elif (type(object) == int and object == 0):
+    elif (type(object) is int and object == 0):
         print("Zero:", f"{object}", type(object))
-    elif (type(object) == str and not object):
+    elif (type(object) is str and not object):
         print("Empty:", type(object))
-    elif type(object) == bool and object is False:
+    elif type(object) is bool and object is False:
         print("Fake:", f"{object}", type(object))
     else:
         print("Type not Found")
