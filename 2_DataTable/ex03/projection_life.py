@@ -3,6 +3,17 @@ from load_csv import load
 
 
 def main():
+    """
+    This script loads life expectancy and GDP data, processes it,
+    and creates a scatter plot.
+
+    - Loads data from CSV files for life expectancy and GDP.
+    - Extracts data for the year 1900 and merges the datasets.
+    - Creates a scatter plot showing the relationship between GDP
+    and life expectancy in 1900.
+    - Uses a logarithmic scale for the x-axis (GDP).
+    - Handles exceptions and prints any errors encountered.
+    """
     try:
         life_expectancy = load(
             'life_expectancy_years.csv'
