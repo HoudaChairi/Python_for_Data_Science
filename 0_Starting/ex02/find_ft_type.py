@@ -1,5 +1,5 @@
 
-def all_thing_is_obj(object: any) -> int: 
+def all_thing_is_obj(object: any) -> int:
     """
     This function checks the type of a given object and prints its type:
 
@@ -29,5 +29,5 @@ def all_thing_is_obj(object: any) -> int:
         print(f"{object} is in the kitchen : ", type_name)
     else:
         print("Type not found")
-        
+
     return (42)
