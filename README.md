@@ -1,68 +1,140 @@
-# 📊 Python_for_Data_Science 🚀
+# 📊 42 Python for Data Science Piscine
+
+  ## 📚 Overview
+  The **Python for Data Science Piscine** project, is a collection of progressive modules 
+  to get familiar with the tools needed in AI/Data science... Let's dive in! 🌟
   
-  Python piscine to get familiar with the tools needed in AI/Data science... Let's dive in! 🌟
+---
 
-## 🔰 Module 00 - Python Basics 
-Introduction to Python fundamentals and basic programming concepts:
-- Working with different data types (integers, floats, strings, lists)
-- Basic operations and string manipulations
-- List comprehensions and basic functions
-- Control flow (if/else, loops)
-- Error handling and NULL values
+## 🎯 Detailed Module Breakdown
 
-## 📊 Module 01 - Array
-Focus on array manipulation and image processing using NumPy:
-- Introduction to NumPy arrays and basic operations
-- Image representation in Python using Matplotlib
-- Array transformations (rotation, scaling)
-- Image manipulation techniques
-- Working with 2D arrays
-- Basic image processing operations (PIL: Pillow)
+### Module 0: Starting
 
-## 📈 Module 02 - Data Table
-Learning data manipulation and analysis with Pandas:
-- Introduction to Pandas and DataFrame basics
-- Data loading and saving (CSV files)
-- DataFrame operations and transformations
-- Data visualization fundamentals
+#### Core Concepts:
+- Python basics and syntax fundamentals 🐍
+- Data types and structures 🔢
+- Script creation and function implementation 🛠️
+- Error handling and argument parsing ⚠️
 
-## 📊 Module 03 - Data Visualization 
-Exploring data visualization techniques with Matplotlib:
-- Creating basic plots (line, scatter, bar)
-- Customizing plot aesthetics
-- Statistical visualizations
-- Multi-dimensional data visualization
-- Interactive plotting
-- Advanced visualization techniques
-- Creating professional-looking graphs
+#### Key Topics:
+- Lists, tuples, sets, and dictionaries
+- String manipulation and formatting
+- Type checking and NULL handling
+- Command-line arguments
+- Basic package creation
+- Basic error handling
+- First standalone programs
 
-## 🤖 Module 04 - Data-Oriented Design
-Advanced data analysis and machine learning concepts:
-- Statistical analysis and probability distributions
-- Linear regression implementation and analysis
-- Logistic regression basics
-- Model evaluation metrics
-- Cross-validation techniques
-- Machine learning fundamentals
+#### Keywords:
+- Arguments handling
+- Package management
+- Error assertions
+- Main function structure
+  
+---
+
+### Module 1: Array
+
+#### Core Concepts:
+- Array manipulation and operations 📊
+- Image processing fundamentals 🖼️
+- NumPy array operations 🔢
+- Basic data visualization 📉
+
+#### Key Topics:
+- 2D array operations
+- Image loading and manipulation
+- RGB color handling
+- Array slicing and transformation
+- Basic image filters
+- Data visualization foundations
+
+#### Keywords:
+- `NumPy` arrays
+- Image processing
+- RGB channels
+- Array slicing
+- Matrix operations
+- Data visualization
+- Pixel manipulation
+
+---
+
+### Module 2: DataTable
+
+#### Core Concepts:
+- Dataset loading and manipulation 📂
+- Data visualization techniques 📉
+- Statistical analysis 📊
+- Real-world data handling 🌍
+
+#### Key Topics:
+- CSV file handling
+- Data visualization with `matplotlib`
+- Country-specific data analysis
+- Population data analysis
+- Life expectancy analysis
+- Data correlation studies
+
+#### Keywords:
+- `Pandas` DataFrame
+- Data visualization
+- Statistical analysis
+- CSV manipulation
+- Time series
+- Data correlation
+- `Matplotlib`
+
+---
+
+### Module 3: Object-Oriented Programming
+
+#### Core Concepts:
+- OOP principles and implementation 🧑‍💻
+- Class inheritance and abstraction 🏰
+- Method decorators 🎨
+- Property management 🏡
+
+#### Key Topics:
+- Abstract class creation
+- Multiple inheritance
+- Class properties and methods
+- Vector calculations
+- Advanced class design patterns
+
+#### Keywords:
+- Classes
+- Inheritance
+- Abstract methods
+- Properties
+- Decorators
+- Method overriding
+- Vector operations
+
+---
+
+### Module 4: Data-Oriented Design (DOD)
+
+#### Core Concepts:
+- Advanced data structures 🏗️
+- Performance optimization ⚡
+- Functional programming concepts 🔄
+- Design patterns 🧩
+
+#### Key Topics:
+- Statistics calculation
+- Function decorators
+- Data class implementation
+- Inner/Outer functions
+- Call limiting patterns
+
+#### Keywords:
+- Data classes
+- Decorators
+- Statistics
+- Function wrappers
+- Design patterns
 - Performance optimization
+- Functional programming
 
-<!-- ## Status
-| Module | Status |
-|--------|---------|
-| Module00 | ✅ |
-| Module01 | ✅ |
-| Module02 | ✅ |
-| Module03 | ✅ |
-| Module04 | ✅ | 
--->
-
-<!-- ## Resources
-- [Python Documentation](https://docs.python.org/3/)
-- [NumPy Documentation](https://numpy.org/doc/)
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
--->
-<!-- ## Requirements
-- NumPy
-- Pandas
-- Matplotlib -->
+---
